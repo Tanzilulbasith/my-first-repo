@@ -1,79 +1,72 @@
 *{
-    padding: 5px 38px 5px 38px; 
+    padding: 25px; 
+    padding-top: 0%;
+    padding-bottom: 0%;
+    /* margin: 0px 25px 0px 25px; */
 }
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background-color: none;
-    padding-inline-start: 20px 20px;
+    background-color: whitesmoke;
   }
-  
-.navbar {
+
+  .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
-    background-color: none;
-    
   }
   
-.logo {
+  .logo {
     font-size: 20px;
-    font-weight: bold;
-    color: black;
+    font-weight: normal;
+    color: #000000; 
   }
-
-.logo:hover {
-    background-color: rgb(93, 157, 93); 
-    color: #fff;
-    border-radius: 5px;
-}   
   
-.signin-button {
+  .button {
     text-decoration: none;
     font-size: 16px;
-    color: rgb(93, 157, 93);
-    border: 2px solid rgb(93, 157, 93); 
+    color: #04664f; 
+    border: 2px solid #04664f; 
     padding: 6px 12px;
     border-radius: 5px;
     transition: all 0.3s ease;
   }
   
-.signin-button:hover {
-    background-color: rgb(93, 157, 93); 
-    color: #fff; 
+  .button:hover {
+    background-color:#04664f; 
+    color: #ffffff; 
   }
   
-.banner {
+  .banner {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 50px 20px;
-    background-color: #d3f3e4; 
+    background-color:  #d3f3e4; 
     border-radius: 10px;
     margin: 20px;
   }
   
-  .banner-content {
+  .bannercon {
     max-width: 50%;
   }
   
-  .banner-content h1 {
-    font-size: 18
-    px;
-    color:#555;
-    margin-bottom: 5px;
+  .bannercon h1 {
+    font-size: 18px;
     font-weight: normal;
+    color:#555;
+    margin-bottom: 10px;
   }
   
-  .banner-content p {
-    font-size: 35px;
-    color:#333;
-    margin-bottom: 20px;
+  .bannercon p {
+    font-size: 36px;
     font-weight: bold;
+    color: #333; 
+    margin-bottom: 20px;
   }
   
-  .explore-button {
+  .expbutton {
     text-decoration: none;
     padding: 10px 20px;
     background-color: #007b5e; 
@@ -83,13 +76,142 @@ body {
     transition: all 0.3s ease;
   }
   
-  .explore-button:hover {
-    background-color:  #d3f3e4
+  .expbutton:hover {
+    background-color: #02231a; 
   }
   
-  .banner-image img {
-    width: 80%; 
-    max-width: 400px; /* Limit the width */
+  .bannerimage img {
+    width: 100%; 
+    max-width: 500px;
     border-radius: 10px;
   }
   
+
+header {
+    padding: 20px 10px;
+    text-align: center;
+    background-color:none;
+    border-radius: 10px;
+    margin: 20px; 
+    text-align: justify;
+    padding: 1rem 0;
+    font-size:20px;
+  color: #333;
+  margin-bottom: 28px;
+}
+
+.pillars {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: none;
+}
+
+.pillar {
+    width: 22%;
+    text-align: justify;
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.pillar p {
+    color: #333; 
+   
+  
+}
+
+.vision {
+    padding: 50px 20px;
+    text-align: center;
+    background-color:none;
+    border-radius: 20px;
+    margin: 25px; 
+    text-align: justify;
+    padding: 2rem 0;
+    font-size:20px;
+  color: #333;
+  margin-bottom: 28px;
+}
+
+.visitems {
+
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+    background-color: none; 
+    gap: 40px;
+
+}
+
+.visitem1 {
+    width: 25%;
+    text-align: justify;
+    padding: 1rem;
+    background: rgb(202, 218, 252);
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button1 {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color:rgb(111, 147, 223);
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.button1:hover {
+    background-color: #02231a;
+}
+
+.visitem2 {
+    width: 25%;
+    text-align: justify;
+    padding: 1rem;
+    background: rgba(210, 248, 220, 0.701);
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0);
+}
+
+.button2 {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color:rgb(41, 184, 127);
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.button2:hover {
+    background-color: #02231a;
+}
+
+.visitem3 {
+    width: 25%;
+    text-align: justify;
+    padding: 1rem;
+    background: rgba(241, 232, 193, 0.784);
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.button3 {
+    text-decoration: none;
+    padding: 10px 20px; 
+    background-color:rgb(231, 206, 45);
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;p
+}
+
+.button3:hover {
+    background-color: #02231a;
+}
+
+
