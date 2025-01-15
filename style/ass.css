@@ -207,7 +207,7 @@ header {
     color: white;
     border-radius: 8px;
     font-size: 16px;
-    transition: all 0.3s ease;p
+    transition: all 0.3s ease;
 }
 
 .button3:hover {
@@ -215,3 +215,82 @@ header {
 }
 
 
+.quote-section {
+  position: relative;
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.quote-section:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  opacity: 0.1;
+  z-index: -1;
+  border-radius: 8px;
+}
+
+.quote-section blockquote {
+  font-size: 1.2em;
+  font-style: normal;
+  color: #555;
+  margin: 0;
+}
+
+.quote-section .author {
+  margin-top: 10px;
+  font-weight: normal;
+  color: #333;
+}
+
+.quote-image {
+  background-image:cross-fade(25%) ;
+}
+
+.opinion-section {
+  margin: 20px;
+}
+
+.opinion-section table {
+  width: 100%;
+  margin: auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  border: 1px solid #0d0d0d;
+  border-radius: 8px;
+   overflow: hidden;
+}
+.opinion-section th, .opinion-section td {
+  padding: 15px;
+  text-align: left;
+  border: 1px solid #0e0e0e;
+}
+
+.opinion-section th {
+  background-color: #d5f5d5;
+  color: #333;
+}
+
+.opinion-section td:last-child {
+  text-align: right;
+}
+
+select {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background-color: #d5f5d5;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+select:focus {
+  outline: none;
+  border-color: #66afe9;
+}
